@@ -1,0 +1,39 @@
+:root {
+  --heading-font: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  background-size: cover;
+}
+
+p {
+  font-family: var(--heading-font);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+img {
+  border-radius: 25px !important;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto !important;
+}
+.card {
+  margin: 80px auto auto;
+  border-radius: 10px;
+}
+.card-title {
+  margin-bottom: 10px !important;
+  color: hsl(218, 44%, 22%);
+  font-family: var(--heading-font);
+  font-weight: 700;
+  margin-top: -10px !important;
+}
+.footer {
+  font-family: var(--heading-font);
+  font-size: 10px;
+  text-align: center;
+}
