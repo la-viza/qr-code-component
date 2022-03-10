@@ -1,10 +1,19 @@
 :root {
   --heading-font: "Outfit", sans-serif;
+  --background-color: hsl(212, 45%, 89%);
 }
 
 body {
-  background-color: hsl(212, 45%, 89%);
-  background-size: cover;
+  background-color: var(--background-color);
+}
+
+main {
+  background-color: var(--color-light-gray);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
@@ -17,12 +26,7 @@ img {
   border-radius: 25px !important;
 }
 
-.container {
-  max-width: 100%;
-  margin: auto !important;
-}
 .card {
-  margin: 80px auto auto;
   border-radius: 10px;
 }
 .card-title {
